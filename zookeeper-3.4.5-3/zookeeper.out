@@ -1,0 +1,199 @@
+2017-08-18 10:46:19,259 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/wpp/soft/zookeeper-3.4.5/bin/../conf/zoo.cfg
+2017-08-18 10:46:19,263 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2017-08-18 10:46:19,263 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2017-08-18 10:46:19,263 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2017-08-18 10:46:19,263 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2017-08-18 10:46:19,289 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/wpp/soft/zookeeper-3.4.5/bin/../conf/zoo.cfg
+2017-08-18 10:46:19,289 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2017-08-18 10:46:19,298 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2017-08-18 10:46:19,298 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=wpp-pc
+2017-08-18 10:46:19,298 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.7.0_80
+2017-08-18 10:46:19,299 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-08-18 10:46:19,299 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/jdk1.7.0_80/jre
+2017-08-18 10:46:19,299 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/wpp/soft/zookeeper-3.4.5/bin/../build/classes:/home/wpp/soft/zookeeper-3.4.5/bin/../build/lib/*.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../lib/slf4j-api-1.6.1.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../lib/netty-3.2.2.Final.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../lib/log4j-1.2.15.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../lib/jline-0.9.94.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../zookeeper-3.4.5.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../src/java/lib/*.jar:/home/wpp/soft/zookeeper-3.4.5/bin/../conf:.:/usr/lib/jvm/jdk1.7.0_80/lib:/usr/lib/jvm/jdk1.7.0_80/jre/lib
+2017-08-18 10:46:19,300 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2017-08-18 10:46:19,300 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-08-18 10:46:19,300 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2017-08-18 10:46:19,301 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2017-08-18 10:46:19,301 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2017-08-18 10:46:19,301 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.10.0-32-generic
+2017-08-18 10:46:19,301 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=wpp
+2017-08-18 10:46:19,302 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/wpp
+2017-08-18 10:46:19,302 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/wpp/soft/zookeeper-3.4.5
+2017-08-18 10:46:19,323 [myid:] - INFO  [main:ZooKeeperServer@726] - tickTime set to 2000
+2017-08-18 10:46:19,323 [myid:] - INFO  [main:ZooKeeperServer@735] - minSessionTimeout set to -1
+2017-08-18 10:46:19,323 [myid:] - INFO  [main:ZooKeeperServer@744] - maxSessionTimeout set to -1
+2017-08-18 10:46:19,357 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2017-08-18 10:46:19,368 [myid:] - INFO  [main:FileTxnSnapLog@240] - Snapshotting: 0x0 to /data/zookeeper/version-2/snapshot.0
+2017-08-18 10:46:31,411 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44376
+2017-08-18 10:46:34,465 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@821] - Processing stat command from /127.0.0.1:44376
+2017-08-18 10:46:34,467 [myid:] - INFO  [Thread-1:NIOServerCnxn$StatCommand@655] - Stat command output
+2017-08-18 10:46:34,472 [myid:] - INFO  [Thread-1:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44376 (no session established for client)
+2017-08-18 10:47:41,479 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45094
+2017-08-18 10:47:41,484 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:45094
+2017-08-18 10:47:41,486 [myid:] - INFO  [SyncThread:0:FileTxnLog@199] - Creating new log file: log.1
+2017-08-18 10:47:41,581 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0000 with negotiated timeout 30000 for client /127.0.0.1:45094
+2017-08-18 10:51:13,381 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:47240
+2017-08-18 10:51:13,382 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:47240; will be dropped if server is in r-o mode
+2017-08-18 10:51:13,382 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:47240
+2017-08-18 10:51:13,405 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0001 with negotiated timeout 10000 for client /127.0.0.1:47240
+2017-08-18 10:51:13,410 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x15df33bf5ec0001
+2017-08-18 10:51:13,411 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x15df33bf5ec0001, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-18 10:51:13,412 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:47240 which had sessionid 0x15df33bf5ec0001
+2017-08-18 10:51:13,463 [myid:] - ERROR [SyncThread:0:NIOServerCnxn@180] - Unexpected Exception: 
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73)
+	at sun.nio.ch.SelectionKeyImpl.interestOps(SelectionKeyImpl.java:77)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendBuffer(NIOServerCnxn.java:153)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendResponse(NIOServerCnxn.java:1076)
+	at org.apache.zookeeper.server.FinalRequestProcessor.processRequest(FinalRequestProcessor.java:404)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:167)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:101)
+2017-08-18 10:51:41,159 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:47544
+2017-08-18 10:51:41,160 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:47544; will be dropped if server is in r-o mode
+2017-08-18 10:51:41,160 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:47544
+2017-08-18 10:51:41,177 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0002 with negotiated timeout 10000 for client /127.0.0.1:47544
+2017-08-18 10:51:41,180 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x15df33bf5ec0002
+2017-08-18 10:51:41,181 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x15df33bf5ec0002, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-18 10:51:41,181 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:47544 which had sessionid 0x15df33bf5ec0002
+2017-08-18 10:51:41,185 [myid:] - ERROR [SyncThread:0:NIOServerCnxn@180] - Unexpected Exception: 
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73)
+	at sun.nio.ch.SelectionKeyImpl.interestOps(SelectionKeyImpl.java:77)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendBuffer(NIOServerCnxn.java:153)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendResponse(NIOServerCnxn.java:1076)
+	at org.apache.zookeeper.server.FinalRequestProcessor.processRequest(FinalRequestProcessor.java:404)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:167)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:101)
+2017-08-18 11:25:15,171 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:39594
+2017-08-18 11:25:15,171 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:39594; will be dropped if server is in r-o mode
+2017-08-18 11:25:15,171 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:39594
+2017-08-18 11:25:15,190 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0003 with negotiated timeout 10000 for client /127.0.0.1:39594
+2017-08-18 11:25:15,197 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x15df33bf5ec0003
+2017-08-18 11:25:15,197 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x15df33bf5ec0003, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-18 11:25:15,198 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:39594 which had sessionid 0x15df33bf5ec0003
+2017-08-18 11:25:15,206 [myid:] - ERROR [SyncThread:0:NIOServerCnxn@180] - Unexpected Exception: 
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73)
+	at sun.nio.ch.SelectionKeyImpl.interestOps(SelectionKeyImpl.java:77)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendBuffer(NIOServerCnxn.java:153)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendResponse(NIOServerCnxn.java:1076)
+	at org.apache.zookeeper.server.FinalRequestProcessor.processRequest(FinalRequestProcessor.java:404)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:167)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:101)
+2017-08-18 11:55:59,968 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.112.4.68:50260
+2017-08-18 11:56:02,036 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@821] - Processing stat command from /10.112.4.68:50260
+2017-08-18 11:56:02,217 [myid:] - INFO  [Thread-2:NIOServerCnxn$StatCommand@655] - Stat command output
+2017-08-18 11:56:02,217 [myid:] - INFO  [Thread-2:NIOServerCnxn@1001] - Closed socket connection for client /10.112.4.68:50260 (no session established for client)
+2017-08-18 11:59:27,024 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:33880
+2017-08-18 11:59:27,025 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:33880
+2017-08-18 11:59:27,051 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0004 with negotiated timeout 30000 for client /127.0.0.1:33880
+2017-08-18 11:59:27,263 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x5 zxid:0xd txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,327 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x6 zxid:0xe txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.cmt.comment.service.VstCmtTitleStatistisService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.cmt.comment.service.VstCmtTitleStatistisService
+2017-08-18 11:59:27,348 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0xa zxid:0x10 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,352 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0xb zxid:0x11 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.cmt.comment.service.VstCmtTitleStatistisService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.cmt.comment.service.VstCmtTitleStatistisService
+2017-08-18 11:59:27,370 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0xf zxid:0x13 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,377 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x10 zxid:0x14 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.cmt.comment.service.VstCmtTitleStatistisService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.cmt.comment.service.VstCmtTitleStatistisService
+2017-08-18 11:59:27,800 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x14 zxid:0x16 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,822 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x16 zxid:0x18 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,895 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x1c zxid:0x1e txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,949 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x1d zxid:0x1f txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:27,978 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x1e zxid:0x20 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.comm.pet.service.businessCoupon.TMHInfoService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.comm.pet.service.businessCoupon.TMHInfoService
+2017-08-18 11:59:28,005 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x1f zxid:0x21 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.prod.service.VstProductService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.prod.service.VstProductService
+2017-08-18 11:59:28,121 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x26 zxid:0x24 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:28,123 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x27 zxid:0x25 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:28,127 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x28 zxid:0x26 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.comm.pet.service.businessCoupon.TMHInfoService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.comm.pet.service.businessCoupon.TMHInfoService
+2017-08-18 11:59:28,136 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x29 zxid:0x27 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.prod.service.VstProductService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.prod.service.VstProductService
+2017-08-18 11:59:28,662 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x30 zxid:0x2a txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:28,663 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x31 zxid:0x2b txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:28,711 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x32 zxid:0x2c txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.comm.pet.service.businessCoupon.TMHInfoService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.comm.pet.service.businessCoupon.TMHInfoService
+2017-08-18 11:59:28,744 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x33 zxid:0x2d txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.prod.service.VstProductService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.prod.service.VstProductService
+2017-08-18 11:59:29,022 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x3a zxid:0x30 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:29,320 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x3e zxid:0x34 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:29,344 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x3f zxid:0x35 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.ticket.prod.service.VstTicketProductService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.ticket.prod.service.VstTicketProductService
+2017-08-18 11:59:29,388 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x43 zxid:0x37 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:29,394 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x44 zxid:0x38 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.ticket.prod.service.VstTicketProductService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.ticket.prod.service.VstTicketProductService
+2017-08-18 11:59:29,757 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x48 zxid:0x3a txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:29,786 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x49 zxid:0x3b txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.ticket.prod.service.VstTicketProductService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.ticket.prod.service.VstTicketProductService
+2017-08-18 11:59:30,064 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x4d zxid:0x3d txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:30,383 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x51 zxid:0x41 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:30,403 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x52 zxid:0x42 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.back.client.prod.service.ProdProductClientService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.back.client.prod.service.ProdProductClientService
+2017-08-18 11:59:30,422 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x56 zxid:0x44 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:30,469 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x57 zxid:0x45 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.back.client.prod.service.ProdProductClientService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.back.client.prod.service.ProdProductClientService
+2017-08-18 11:59:30,513 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x5b zxid:0x47 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:30,519 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x5c zxid:0x48 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.back.client.prod.service.ProdProductClientService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.back.client.prod.service.ProdProductClientService
+2017-08-18 11:59:30,936 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x60 zxid:0x4a txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:30,994 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x64 zxid:0x4e txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:31,011 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x65 zxid:0x4f txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.route.prod.service.VstRouteService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.route.prod.service.VstRouteService
+2017-08-18 11:59:31,063 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x69 zxid:0x51 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:31,070 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x6a zxid:0x52 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.route.prod.service.VstRouteService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.route.prod.service.VstRouteService
+2017-08-18 11:59:31,088 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x6e zxid:0x54 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:31,095 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x6f zxid:0x55 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.vst.api.route.prod.service.VstRouteService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.vst.api.route.prod.service.VstRouteService
+2017-08-18 11:59:35,266 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x73 zxid:0x57 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:35,771 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x77 zxid:0x5b txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:35,779 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x78 zxid:0x5c txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.searchclient.search.service.LvmamaSearchService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.searchclient.search.service.LvmamaSearchService
+2017-08-18 11:59:35,864 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x7c zxid:0x5e txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:35,904 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x7d zxid:0x5f txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.searchclient.search.service.LvmamaSearchService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.searchclient.search.service.LvmamaSearchService
+2017-08-18 11:59:35,959 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x81 zxid:0x61 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:35,979 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x82 zxid:0x62 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.searchclient.search.service.LvmamaSearchService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.searchclient.search.service.LvmamaSearchService
+2017-08-18 11:59:45,230 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:34052
+2017-08-18 11:59:45,230 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:34052; will be dropped if server is in r-o mode
+2017-08-18 11:59:45,230 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:34052
+2017-08-18 11:59:45,376 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0005 with negotiated timeout 10000 for client /127.0.0.1:34052
+2017-08-18 11:59:45,622 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x15df33bf5ec0005
+2017-08-18 11:59:45,622 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x15df33bf5ec0005, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-18 11:59:45,622 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:34052 which had sessionid 0x15df33bf5ec0005
+2017-08-18 11:59:45,680 [myid:] - ERROR [SyncThread:0:NIOServerCnxn@180] - Unexpected Exception: 
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73)
+	at sun.nio.ch.SelectionKeyImpl.interestOps(SelectionKeyImpl.java:77)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendBuffer(NIOServerCnxn.java:153)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendResponse(NIOServerCnxn.java:1076)
+	at org.apache.zookeeper.server.FinalRequestProcessor.processRequest(FinalRequestProcessor.java:404)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:167)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:101)
+2017-08-18 11:59:57,326 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:34184
+2017-08-18 11:59:57,326 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:34184; will be dropped if server is in r-o mode
+2017-08-18 11:59:57,326 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:34184
+2017-08-18 11:59:57,341 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x15df33bf5ec0006 with negotiated timeout 10000 for client /127.0.0.1:34184
+2017-08-18 11:59:57,345 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x15df33bf5ec0006
+2017-08-18 11:59:57,346 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x15df33bf5ec0006, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2017-08-18 11:59:57,346 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:34184 which had sessionid 0x15df33bf5ec0006
+2017-08-18 11:59:57,349 [myid:] - ERROR [SyncThread:0:NIOServerCnxn@180] - Unexpected Exception: 
+java.nio.channels.CancelledKeyException
+	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73)
+	at sun.nio.ch.SelectionKeyImpl.interestOps(SelectionKeyImpl.java:77)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendBuffer(NIOServerCnxn.java:153)
+	at org.apache.zookeeper.server.NIOServerCnxn.sendResponse(NIOServerCnxn.java:1076)
+	at org.apache.zookeeper.server.FinalRequestProcessor.processRequest(FinalRequestProcessor.java:404)
+	at org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:167)
+	at org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:101)
+2017-08-18 11:59:58,783 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x86 zxid:0x68 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:58,817 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x8a zxid:0x6c txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:58,825 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x8b zxid:0x6d txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.scenic.back.client.dist.service.DistGoodsClientService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.scenic.back.client.dist.service.DistGoodsClientService
+2017-08-18 11:59:58,864 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x8f zxid:0x6f txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:58,933 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x90 zxid:0x70 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.scenic.back.client.dist.service.DistGoodsClientService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.scenic.back.client.dist.service.DistGoodsClientService
+2017-08-18 11:59:59,043 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x94 zxid:0x72 txntype:-1 reqpath:n/a Error Path:/dubbo Error:KeeperErrorCode = NodeExists for /dubbo
+2017-08-18 11:59:59,050 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x15df33bf5ec0004 type:create cxid:0x95 zxid:0x73 txntype:-1 reqpath:n/a Error Path:/dubbo/com.lvmama.scenic.back.client.dist.service.DistGoodsClientService Error:KeeperErrorCode = NodeExists for /dubbo/com.lvmama.scenic.back.client.dist.service.DistGoodsClientService
+2017-08-18 12:00:55,773 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x15df33bf5ec0004
+2017-08-18 12:00:55,783 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:33880 which had sessionid 0x15df33bf5ec0004

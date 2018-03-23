@@ -1,0 +1,753 @@
+2018-03-08 17:09:42,232 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../conf/zoo.cfg
+2018-03-08 17:09:42,234 [myid:] - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2018-03-08 17:09:42,273 [myid:3] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2018-03-08 17:09:42,273 [myid:3] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2018-03-08 17:09:42,274 [myid:3] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2018-03-08 17:09:42,299 [myid:3] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2018-03-08 17:09:42,306 [myid:3] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2183
+2018-03-08 17:09:42,318 [myid:3] - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2018-03-08 17:09:42,318 [myid:3] - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2018-03-08 17:09:42,318 [myid:3] - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2018-03-08 17:09:42,318 [myid:3] - INFO  [main:QuorumPeer@959] - initLimit set to 5
+2018-03-08 17:09:42,348 [myid:3] - INFO  [main:FileSnap@83] - Reading snapshot /data/zkMasterSlave/zk-master-slave3/version-2/snapshot.100000000
+2018-03-08 17:09:42,353 [myid:3] - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3890
+2018-03-08 17:09:42,358 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer@670] - LOOKING
+2018-03-08 17:09:42,359 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@740] - New election. My id =  3, proposed zxid=0x100000000
+2018-03-08 17:09:42,364 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,365 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,366 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x100000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,367 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,368 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,368 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,369 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,370 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0x2 (n.peerEPoch), LOOKING (my state)
+2018-03-08 17:09:42,570 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer@738] - FOLLOWING
+2018-03-08 17:09:42,573 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Learner@85] - TCP NoDelay set to: true
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:host.name=wpp-pc
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.version=1.8.0_151
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.class.path=/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../build/classes:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../build/lib/*.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../lib/slf4j-api-1.6.1.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../lib/netty-3.2.2.Final.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../lib/log4j-1.2.15.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../lib/jline-0.9.94.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../zookeeper-3.4.5.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../src/java/lib/*.jar:/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/../conf:
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2018-03-08 17:09:42,577 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:java.compiler=<NA>
+2018-03-08 17:09:42,578 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:os.name=Linux
+2018-03-08 17:09:42,578 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:os.arch=amd64
+2018-03-08 17:09:42,578 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:os.version=4.10.0-42-generic
+2018-03-08 17:09:42,578 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:user.name=root
+2018-03-08 17:09:42,578 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:user.home=/root
+2018-03-08 17:09:42,578 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Environment@100] - Server environment:user.dir=/home/wpp/soft/zk-master-salve
+2018-03-08 17:09:42,579 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /data/zkMasterSlave/zk-master-slave3/version-2 snapdir /data/zkMasterSlave/zk-master-slave3/version-2
+2018-03-08 17:09:42,579 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Follower@63] - FOLLOWING - LEADER ELECTION TOOK - 220
+2018-03-08 17:09:42,619 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Learner@325] - Getting a snapshot from leader
+2018-03-08 17:09:42,623 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FileTxnSnapLog@240] - Snapshotting: 0x300000000 to /data/zkMasterSlave/zk-master-slave3/version-2/snapshot.300000000
+2018-03-08 17:09:54,923 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:49102
+2018-03-08 17:09:54,926 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@821] - Processing srvr command from /127.0.0.1:49102
+2018-03-08 17:09:54,932 [myid:3] - INFO  [Thread-2:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:49102 (no session established for client)
+2018-03-08 17:22:56,776 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Follower@118] - Got zxid 0x300000001 expected 0x1
+2018-03-08 17:22:56,777 [myid:3] - INFO  [SyncThread:3:FileTxnLog@199] - Creating new log file: log.300000001
+2018-03-09 10:48:30,916 [myid:3] - WARN  [CommitProcessor:3:DataTree@388] - Quota exceeded: /test_quota count=3 limit=2
+2018-03-09 10:48:40,260 [myid:3] - WARN  [CommitProcessor:3:DataTree@388] - Quota exceeded: /test_quota count=4 limit=2
+2018-03-09 17:36:29,984 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:58180
+2018-03-09 17:36:30,504 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:58180
+2018-03-09 17:36:30,630 [myid:3] - INFO  [CommitProcessor:3:ZooKeeperServer@595] - Established session 0x36204df8e5d0000 with negotiated timeout 40000 for client /127.0.0.1:58180
+2018-03-09 18:01:06,675 [myid:3] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@762] - Connection broken for id 1, my id = 3, error = 
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:747)
+2018-03-09 18:01:07,065 [myid:3] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2018-03-09 18:01:07,284 [myid:3] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:831)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:667)
+2018-03-09 18:01:07,285 [myid:3] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2018-03-09 18:02:12,864 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Follower@89] - Exception when following the leader
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:63)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:83)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:108)
+	at org.apache.zookeeper.server.quorum.Learner.readPacket(Learner.java:152)
+	at org.apache.zookeeper.server.quorum.Follower.followLeader(Follower.java:85)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:740)
+2018-03-09 18:02:12,865 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:Follower@166] - shutdown called
+java.lang.Exception: shutdown Follower
+	at org.apache.zookeeper.server.quorum.Follower.shutdown(Follower.java:166)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:744)
+2018-03-09 18:02:12,865 [myid:3] - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@762] - Connection broken for id 2, my id = 3, error = 
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:747)
+2018-03-09 18:02:12,865 [myid:3] - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2018-03-09 18:02:12,865 [myid:3] - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:831)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:667)
+2018-03-09 18:02:12,903 [myid:3] - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2018-03-09 18:02:12,866 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:58180 which had sessionid 0x36204df8e5d0000
+2018-03-09 18:02:12,904 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FollowerZooKeeperServer@139] - Shutting down
+2018-03-09 18:02:12,904 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:ZooKeeperServer@419] - shutting down
+2018-03-09 18:02:12,904 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FollowerRequestProcessor@105] - Shutting down
+2018-03-09 18:02:12,904 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:CommitProcessor@181] - Shutting down
+2018-03-09 18:02:12,904 [myid:3] - INFO  [FollowerRequestProcessor:3:FollowerRequestProcessor@95] - FollowerRequestProcessor exited loop!
+2018-03-09 18:02:12,904 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FinalRequestProcessor@415] - shutdown of request processor complete
+2018-03-09 18:02:12,904 [myid:3] - INFO  [CommitProcessor:3:CommitProcessor@150] - CommitProcessor exited loop!
+2018-03-09 18:02:12,905 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:SyncRequestProcessor@175] - Shutting down
+2018-03-09 18:02:12,905 [myid:3] - INFO  [SyncThread:3:SyncRequestProcessor@155] - SyncRequestProcessor exited!
+2018-03-09 18:02:12,905 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumPeer@670] - LOOKING
+2018-03-09 18:02:13,018 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FileSnap@83] - Reading snapshot /data/zkMasterSlave/zk-master-slave3/version-2/snapshot.300000000
+2018-03-09 18:02:13,071 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:DataTree@388] - Quota exceeded: /test_quota count=3 limit=2
+2018-03-09 18:02:13,379 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:DataTree@388] - Quota exceeded: /test_quota count=4 limit=2
+2018-03-09 18:02:13,396 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@740] - New election. My id =  3, proposed zxid=0x30000004d
+2018-03-09 18:02:13,535 [myid:3] - WARN  [WorkerSender[myid=3]:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-09 18:02:13,536 [myid:3] - WARN  [WorkerSender[myid=3]:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
+	at java.lang.Thread.run(Thread.java:748)
+2018-03-09 18:02:13,536 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x30000004d (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x3 (n.peerEPoch), LOOKING (my state)
+2018-03-09 18:02:13,770 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:13,771 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:13,771 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 400
+2018-03-09 18:02:14,172 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:14,172 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:14,172 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 800
+2018-03-09 18:02:14,355 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44228
+2018-03-09 18:02:14,355 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:14,355 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44228 (no session established for client)
+2018-03-09 18:02:14,972 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:14,973 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:14,973 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 1600
+2018-03-09 18:02:16,410 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44268
+2018-03-09 18:02:16,410 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:16,410 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44268 (no session established for client)
+2018-03-09 18:02:16,573 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:16,574 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:16,574 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 3200
+2018-03-09 18:02:18,278 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44300
+2018-03-09 18:02:18,278 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:18,278 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44300 (no session established for client)
+2018-03-09 18:02:19,774 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:19,775 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:19,794 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 6400
+2018-03-09 18:02:20,120 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44326
+2018-03-09 18:02:20,120 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:20,121 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44326 (no session established for client)
+2018-03-09 18:02:21,330 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44348
+2018-03-09 18:02:21,331 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:21,331 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44348 (no session established for client)
+2018-03-09 18:02:22,768 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44366
+2018-03-09 18:02:22,768 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:22,768 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44366 (no session established for client)
+2018-03-09 18:02:24,052 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44382
+2018-03-09 18:02:24,052 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:24,052 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44382 (no session established for client)
+2018-03-09 18:02:25,457 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44408
+2018-03-09 18:02:25,458 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:25,458 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44408 (no session established for client)
+2018-03-09 18:02:26,195 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:26,195 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:26,195 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 12800
+2018-03-09 18:02:27,085 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44434
+2018-03-09 18:02:27,085 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:27,085 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44434 (no session established for client)
+2018-03-09 18:02:29,019 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44462
+2018-03-09 18:02:29,019 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:29,019 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44462 (no session established for client)
+2018-03-09 18:02:31,062 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44492
+2018-03-09 18:02:31,063 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:31,063 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44492 (no session established for client)
+2018-03-09 18:02:32,235 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44506
+2018-03-09 18:02:32,235 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:32,235 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44506 (no session established for client)
+2018-03-09 18:02:34,166 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44534
+2018-03-09 18:02:34,167 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:34,167 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44534 (no session established for client)
+2018-03-09 18:02:35,636 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44560
+2018-03-09 18:02:35,636 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:35,636 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44560 (no session established for client)
+2018-03-09 18:02:36,969 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44578
+2018-03-09 18:02:36,970 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:36,970 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44578 (no session established for client)
+2018-03-09 18:02:38,640 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44604
+2018-03-09 18:02:38,640 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:38,640 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44604 (no session established for client)
+2018-03-09 18:02:38,995 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:38,996 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:02:38,996 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 25600
+2018-03-09 18:02:40,433 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44634
+2018-03-09 18:02:40,434 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:40,434 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44634 (no session established for client)
+2018-03-09 18:02:42,520 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44668
+2018-03-09 18:02:42,520 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:42,520 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44668 (no session established for client)
+2018-03-09 18:02:43,720 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44682
+2018-03-09 18:02:43,721 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:43,721 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44682 (no session established for client)
+2018-03-09 18:02:45,495 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44708
+2018-03-09 18:02:45,495 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:45,495 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44708 (no session established for client)
+2018-03-09 18:02:46,868 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44724
+2018-03-09 18:02:46,869 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:46,869 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44724 (no session established for client)
+2018-03-09 18:02:48,845 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44756
+2018-03-09 18:02:48,845 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:48,845 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44756 (no session established for client)
+2018-03-09 18:02:50,220 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44776
+2018-03-09 18:02:50,222 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:50,222 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44776 (no session established for client)
+2018-03-09 18:02:51,649 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44804
+2018-03-09 18:02:51,650 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:51,650 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44804 (no session established for client)
+2018-03-09 18:02:53,118 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44822
+2018-03-09 18:02:53,118 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:53,118 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44822 (no session established for client)
+2018-03-09 18:02:54,873 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44848
+2018-03-09 18:02:54,874 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:54,874 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44848 (no session established for client)
+2018-03-09 18:02:56,730 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44882
+2018-03-09 18:02:56,730 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:56,773 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44882 (no session established for client)
+2018-03-09 18:02:58,313 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44900
+2018-03-09 18:02:58,313 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:58,313 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44900 (no session established for client)
+2018-03-09 18:02:59,681 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44934
+2018-03-09 18:02:59,681 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:02:59,681 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44934 (no session established for client)
+2018-03-09 18:03:01,497 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44960
+2018-03-09 18:03:01,497 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:01,497 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44960 (no session established for client)
+2018-03-09 18:03:03,253 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:44978
+2018-03-09 18:03:03,254 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:03,254 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:44978 (no session established for client)
+2018-03-09 18:03:04,596 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:03:04,597 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:03:04,597 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 51200
+2018-03-09 18:03:04,651 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45008
+2018-03-09 18:03:04,652 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:04,652 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45008 (no session established for client)
+2018-03-09 18:03:06,513 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45034
+2018-03-09 18:03:06,513 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:06,513 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45034 (no session established for client)
+2018-03-09 18:03:07,794 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45052
+2018-03-09 18:03:07,794 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:07,794 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45052 (no session established for client)
+2018-03-09 18:03:09,489 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45078
+2018-03-09 18:03:09,489 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:09,489 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45078 (no session established for client)
+2018-03-09 18:03:10,868 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45094
+2018-03-09 18:03:10,869 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:10,869 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45094 (no session established for client)
+2018-03-09 18:03:12,851 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45124
+2018-03-09 18:03:12,851 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:12,851 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45124 (no session established for client)
+2018-03-09 18:03:14,072 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45138
+2018-03-09 18:03:14,072 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:14,072 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45138 (no session established for client)
+2018-03-09 18:03:15,543 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45160
+2018-03-09 18:03:15,543 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:15,543 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45160 (no session established for client)
+2018-03-09 18:03:16,808 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45176
+2018-03-09 18:03:16,808 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:16,809 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45176 (no session established for client)
+2018-03-09 18:03:18,389 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45198
+2018-03-09 18:03:18,390 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:18,390 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45198 (no session established for client)
+2018-03-09 18:03:20,238 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45216
+2018-03-09 18:03:20,238 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:20,238 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45216 (no session established for client)
+2018-03-09 18:03:21,711 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45240
+2018-03-09 18:03:21,711 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:21,711 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45240 (no session established for client)
+2018-03-09 18:03:23,051 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45254
+2018-03-09 18:03:23,051 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:23,051 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45254 (no session established for client)
+2018-03-09 18:03:25,020 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45278
+2018-03-09 18:03:25,020 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:25,020 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45278 (no session established for client)
+2018-03-09 18:03:26,217 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45294
+2018-03-09 18:03:26,217 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:26,218 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45294 (no session established for client)
+2018-03-09 18:03:28,175 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45318
+2018-03-09 18:03:28,176 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:28,176 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45318 (no session established for client)
+2018-03-09 18:03:29,625 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45342
+2018-03-09 18:03:29,625 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:29,625 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45342 (no session established for client)
+2018-03-09 18:03:31,315 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45360
+2018-03-09 18:03:31,315 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:31,316 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45360 (no session established for client)
+2018-03-09 18:03:32,877 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45384
+2018-03-09 18:03:32,877 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:32,877 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45384 (no session established for client)
+2018-03-09 18:03:34,410 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45404
+2018-03-09 18:03:34,410 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:34,410 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45404 (no session established for client)
+2018-03-09 18:03:35,946 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45420
+2018-03-09 18:03:35,947 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:35,947 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45420 (no session established for client)
+2018-03-09 18:03:37,107 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45436
+2018-03-09 18:03:37,107 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:37,107 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45436 (no session established for client)
+2018-03-09 18:03:38,673 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45460
+2018-03-09 18:03:38,673 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:38,673 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45460 (no session established for client)
+2018-03-09 18:03:40,588 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45484
+2018-03-09 18:03:40,589 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:40,589 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45484 (no session established for client)
+2018-03-09 18:03:42,088 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45502
+2018-03-09 18:03:42,089 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:42,089 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45502 (no session established for client)
+2018-03-09 18:03:43,898 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45528
+2018-03-09 18:03:43,898 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:43,898 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45528 (no session established for client)
+2018-03-09 18:03:45,218 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45542
+2018-03-09 18:03:45,218 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:45,218 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45542 (no session established for client)
+2018-03-09 18:03:47,015 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45566
+2018-03-09 18:03:47,016 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:47,016 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45566 (no session established for client)
+2018-03-09 18:03:48,779 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45594
+2018-03-09 18:03:48,779 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:48,779 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45594 (no session established for client)
+2018-03-09 18:03:50,685 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45620
+2018-03-09 18:03:50,685 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:50,686 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45620 (no session established for client)
+2018-03-09 18:03:52,188 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45638
+2018-03-09 18:03:52,189 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:52,189 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45638 (no session established for client)
+2018-03-09 18:03:53,315 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45652
+2018-03-09 18:03:53,315 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:53,315 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45652 (no session established for client)
+2018-03-09 18:03:54,592 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45676
+2018-03-09 18:03:54,592 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:54,593 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45676 (no session established for client)
+2018-03-09 18:03:55,797 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:03:55,797 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:03:55,798 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 60000
+2018-03-09 18:03:56,317 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45696
+2018-03-09 18:03:56,318 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:56,318 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45696 (no session established for client)
+2018-03-09 18:03:57,592 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45720
+2018-03-09 18:03:57,592 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:57,592 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45720 (no session established for client)
+2018-03-09 18:03:59,004 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45736
+2018-03-09 18:03:59,004 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:03:59,004 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45736 (no session established for client)
+2018-03-09 18:04:00,183 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45748
+2018-03-09 18:04:00,184 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:00,184 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45748 (no session established for client)
+2018-03-09 18:04:02,183 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45772
+2018-03-09 18:04:02,184 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:02,184 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45772 (no session established for client)
+2018-03-09 18:04:03,980 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45798
+2018-03-09 18:04:03,980 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:03,980 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45798 (no session established for client)
+2018-03-09 18:04:05,224 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45810
+2018-03-09 18:04:05,224 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:05,224 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45810 (no session established for client)
+2018-03-09 18:04:06,437 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45834
+2018-03-09 18:04:06,438 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:06,438 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45834 (no session established for client)
+2018-03-09 18:04:07,828 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45850
+2018-03-09 18:04:07,828 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:07,828 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45850 (no session established for client)
+2018-03-09 18:04:09,514 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45872
+2018-03-09 18:04:09,514 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:09,514 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45872 (no session established for client)
+2018-03-09 18:04:11,496 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45900
+2018-03-09 18:04:11,496 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:11,497 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45900 (no session established for client)
+2018-03-09 18:04:12,895 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45916
+2018-03-09 18:04:12,896 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:12,896 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45916 (no session established for client)
+2018-03-09 18:04:14,015 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45932
+2018-03-09 18:04:14,015 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:14,015 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45932 (no session established for client)
+2018-03-09 18:04:15,176 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45942
+2018-03-09 18:04:15,176 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:15,176 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45942 (no session established for client)
+2018-03-09 18:04:16,915 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45970
+2018-03-09 18:04:16,915 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:16,915 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45970 (no session established for client)
+2018-03-09 18:04:18,348 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:45986
+2018-03-09 18:04:18,349 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:18,349 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:45986 (no session established for client)
+2018-03-09 18:04:20,303 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46014
+2018-03-09 18:04:20,304 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:20,304 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46014 (no session established for client)
+2018-03-09 18:04:21,558 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46034
+2018-03-09 18:04:21,558 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:21,558 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46034 (no session established for client)
+2018-03-09 18:04:22,680 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46050
+2018-03-09 18:04:22,680 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:22,681 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46050 (no session established for client)
+2018-03-09 18:04:24,682 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46076
+2018-03-09 18:04:24,683 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:24,683 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46076 (no session established for client)
+2018-03-09 18:04:25,863 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46090
+2018-03-09 18:04:25,863 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:25,863 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46090 (no session established for client)
+2018-03-09 18:04:27,099 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46104
+2018-03-09 18:04:27,100 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:27,100 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46104 (no session established for client)
+2018-03-09 18:04:28,646 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46130
+2018-03-09 18:04:28,647 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:28,647 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46130 (no session established for client)
+2018-03-09 18:04:30,167 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46144
+2018-03-09 18:04:30,167 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:30,167 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46144 (no session established for client)
+2018-03-09 18:04:31,983 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46170
+2018-03-09 18:04:31,983 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:31,983 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46170 (no session established for client)
+2018-03-09 18:04:33,955 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46194
+2018-03-09 18:04:33,955 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:33,955 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46194 (no session established for client)
+2018-03-09 18:04:35,590 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46218
+2018-03-09 18:04:35,590 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:35,590 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46218 (no session established for client)
+2018-03-09 18:04:37,037 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46234
+2018-03-09 18:04:37,038 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:37,038 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46234 (no session established for client)
+2018-03-09 18:04:38,571 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46258
+2018-03-09 18:04:38,571 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:38,571 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46258 (no session established for client)
+2018-03-09 18:04:39,951 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46274
+2018-03-09 18:04:39,951 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:39,951 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46274 (no session established for client)
+2018-03-09 18:04:41,564 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46298
+2018-03-09 18:04:41,565 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:41,565 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46298 (no session established for client)
+2018-03-09 18:04:42,936 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46314
+2018-03-09 18:04:42,937 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:42,937 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46314 (no session established for client)
+2018-03-09 18:04:44,120 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46326
+2018-03-09 18:04:44,121 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:44,121 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46326 (no session established for client)
+2018-03-09 18:04:46,096 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46352
+2018-03-09 18:04:46,096 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:46,096 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46352 (no session established for client)
+2018-03-09 18:04:47,378 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46368
+2018-03-09 18:04:47,378 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:47,378 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46368 (no session established for client)
+2018-03-09 18:04:48,518 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46394
+2018-03-09 18:04:48,518 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:48,518 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46394 (no session established for client)
+2018-03-09 18:04:50,380 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46410
+2018-03-09 18:04:50,381 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:50,381 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46410 (no session established for client)
+2018-03-09 18:04:51,835 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46434
+2018-03-09 18:04:51,835 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:51,835 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46434 (no session established for client)
+2018-03-09 18:04:53,874 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46458
+2018-03-09 18:04:53,874 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:53,874 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46458 (no session established for client)
+2018-03-09 18:04:55,784 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46482
+2018-03-09 18:04:55,785 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:55,785 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46482 (no session established for client)
+2018-03-09 18:04:55,798 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 1 at election address /127.0.0.1:3888
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:04:55,798 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:QuorumCnxManager@368] - Cannot open channel to 2 at election address /127.0.0.1:3889
+java.net.ConnectException: 拒绝连接 (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:388)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:765)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:716)
+2018-03-09 18:04:55,798 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2183:FastLeaderElection@774] - Notification time out: 60000
+2018-03-09 18:04:57,412 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46502
+2018-03-09 18:04:57,412 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:57,412 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46502 (no session established for client)
+2018-03-09 18:04:58,857 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46528
+2018-03-09 18:04:58,857 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:04:58,857 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46528 (no session established for client)
+2018-03-09 18:05:00,649 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46556
+2018-03-09 18:05:00,649 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:00,649 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46556 (no session established for client)
+2018-03-09 18:05:02,026 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46568
+2018-03-09 18:05:02,026 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:02,026 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46568 (no session established for client)
+2018-03-09 18:05:03,459 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46584
+2018-03-09 18:05:03,460 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:03,460 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46584 (no session established for client)
+2018-03-09 18:05:05,216 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46610
+2018-03-09 18:05:05,216 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:05,216 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46610 (no session established for client)
+2018-03-09 18:05:06,806 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46634
+2018-03-09 18:05:06,806 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:06,806 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46634 (no session established for client)
+2018-03-09 18:05:08,673 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46658
+2018-03-09 18:05:08,674 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:08,674 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46658 (no session established for client)
+2018-03-09 18:05:10,706 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46684
+2018-03-09 18:05:10,707 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:10,707 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46684 (no session established for client)
+2018-03-09 18:05:12,627 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46710
+2018-03-09 18:05:12,627 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:12,627 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46710 (no session established for client)
+2018-03-09 18:05:14,286 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46726
+2018-03-09 18:05:14,286 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:14,287 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46726 (no session established for client)
+2018-03-09 18:05:16,215 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46752
+2018-03-09 18:05:16,215 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:16,215 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46752 (no session established for client)
+2018-03-09 18:05:17,859 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46776
+2018-03-09 18:05:17,860 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:17,860 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46776 (no session established for client)
+2018-03-09 18:05:19,937 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46792
+2018-03-09 18:05:19,939 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:19,939 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46792 (no session established for client)
+2018-03-09 18:05:21,566 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46816
+2018-03-09 18:05:21,568 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:21,568 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46816 (no session established for client)
+2018-03-09 18:05:22,947 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46824
+2018-03-09 18:05:22,947 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:22,947 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46824 (no session established for client)
+2018-03-09 18:05:24,719 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46832
+2018-03-09 18:05:24,721 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:24,721 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46832 (no session established for client)
+2018-03-09 18:05:26,219 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:46836
+2018-03-09 18:05:26,220 [myid:3] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-03-09 18:05:26,220 [myid:3] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2183:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:46836 (no session established for client)

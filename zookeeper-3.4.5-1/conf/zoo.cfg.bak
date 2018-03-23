@@ -1,0 +1,8 @@
+tickTime=2000
+dataDir=/data/zk-master-slave1
+clientPort=2181
+initLimit=5
+syncLimit=2
+server.1=127.0.0.1:2183:3183
+server.2=127.0.0.1:2184:3184
+server.3=127.0.0.1:2185:3185

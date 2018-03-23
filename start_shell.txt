@@ -1,0 +1,80 @@
+启动相关服务;
+
+sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-1/bin/zkServer.sh start
+sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-2/bin/zkServer.sh start
+sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/zkServer.sh start
+
+
+停止服务
+
+sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-1/bin/zkServer.sh stop
+sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-2/bin/zkServer.sh stop
+sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/zkServer.sh stop
+
+
+查看相关的服务信息
+
+/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/zkServer.sh status
+
+
+
+zk的配置信息
+server1
+tickTime=2000
+dataDir=/data/zkMasterSlave/zk-master-slave1
+clientPort=2181
+initLimit=5
+syncLimit=2
+server.1=127.0.0.1:2888:3888
+server.2=127.0.0.1:2889:3889
+server.3=127.0.0.1:2890:3890
+
+server2
+tickTime=2000
+dataDir=/data/zkMasterSlave/zk-master-slave2
+clientPort=2181
+initLimit=5
+syncLimit=2
+server.1=127.0.0.1:2888:3888
+server.2=127.0.0.1:2889:3889
+server.3=127.0.0.1:2890:3890
+
+server3
+tickTime=2000
+dataDir=/data/zkMasterSlave/zk-master-slave2
+clientPort=2181
+initLimit=5
+syncLimit=2
+server.1=127.0.0.1:2888:3888
+server.2=127.0.0.1:2889:3889
+server.3=127.0.0.1:2890:3890
+
+需要在 /data/zkMasterSlave/zk-master-slave1/  文件夹下创建 myid ，并写入相关id信息。
+
+
+echo 1 > /data/zkMasterSlave/zk-master-slave1/myid
+echo 2 > /data/zkMasterSlave/zk-master-slave2/myid
+echo 3 > /data/zkMasterSlave/zk-master-slave3/myid
+
+
+
+连接客户端,主要输入端口，都可以链接
+/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/zkCli.sh -server 127.0.0.1:2181
+
+/home/wpp/soft/zk-master-salve/zookeeper-3.4.5-3/bin/zkCli.sh -server 127.0.0.1:2182
+
+
+
+所谓集群管理无在乎两点：是否有机器退出和加入、选举master。
+对于第一点，所有机器约定在父目录GroupMembers下创建临时目录节点，然后监听父目录节点的子节点变化消息。一旦有机器挂掉，该机器与zookeeper的连接断开，其所创建的临时目录节点被删除，所有其他机器都收到通知：某个兄弟目录被删除，于是，所有人都知道：它上船了。新机器加入也是类似，所有机器收到通知：新兄弟目录加入，highcount又有了。
+对于第二点，我们稍微改变一下，所有机器创建临时顺序编号目录节点，每次选取编号最小的机器作为master就好。
+
+
+
+zk 集群至少需要两台机器才能正常工作
+
+zk node类型分为 四种类型，临时节点可以用于分布式锁的实现。
+
+
+
+
