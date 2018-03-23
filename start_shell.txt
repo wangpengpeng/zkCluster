@@ -1,3 +1,8 @@
+创建文件夹存放相关数据和日志
+mkdir -p /data/zkMasterSlave/zk-master-slave1
+mkdir -p /data/zkMasterSlave/zk-master-slave2
+mkdir -p /data/zkMasterSlave/zk-master-slave3
+
 启动相关服务;
 
 sudo /home/wpp/soft/zk-master-salve/zookeeper-3.4.5-1/bin/zkServer.sh start
